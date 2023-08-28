@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@200;300&display=swap');
+*{
+    padding : 0px 0px;
+    margin : 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    color : white;
+
+}
+main{
+    background: linear-gradient(rgb(134, 14, 150), rgb(61, 81, 182));
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    padding : 15px 0px;
+   font-weight: lighter;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.row{
+    width : 1000px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+    border : 2px solid white;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+#search{
+    border-radius: 25px;
+    border: none;
+    outline : none;
+    font-size: 18px;
+    padding : 10px;
+    margin: 10px 10px;
+    color : black;
+}
